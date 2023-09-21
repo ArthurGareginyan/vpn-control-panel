@@ -1,0 +1,24 @@
+# macOS system files
+.DS_Store
+
+# Apple Double files
+._*
+
+# Thumbnails
+._.DS_Store
+._.Trashes
+._.FBC*
+.Thumbs.db
+
+# Finder files
+.DS_Store?
+.Trashes
+
+# Spotlight files
+.Spotlight-V100
+
+# Temporary Items
+.TemporaryItems
+
+# FSEvents files
+.fseventsd
