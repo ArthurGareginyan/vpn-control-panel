@@ -3,7 +3,7 @@
 
 <head>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>VPN Control Panel</title>
     <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/lib/fontawesome/css/all.min.css">
@@ -13,24 +13,32 @@
 
 <body>
     <div class="container text-center">
+
         <div class="icon">
             <i class="fa-solid fa-user-secret"></i>
         </div>
+
         <h1>VPN Control Panel</h1>
-        <br/>
-        <br/>
-        <br/>
-        <button onclick="toggleVPN()" id="vpnToggleButton" class="btn btn-lg btn-primary"><i class="fa-solid fa-power-off"></i> Toggle VPN</button>
-        <br/>
-        <br/>
-        <br/>
-        <p id="vpnStatus"><span style="font-weight: 100;">VPN status:</span> Checking...</p>
-        <p id="status"><span style="font-weight: 100;">Toggle status:</span> Unknown</p>
+
+        <button onclick="toggleVPN()" id="vpnToggleButton" class="btn btn-lg btn-primary">
+            <i class="fa-solid fa-power-off"></i>
+            Toggle VPN
+        </button>
+
+        <p id="vpnStatus">
+            <span style="font-weight: 100;">VPN status:</span>
+            Checking...
+        </p>
+        <p id="status">
+            <span style="font-weight: 100;">Toggle status:</span>
+            Unknown
+        </p>
+
     </div>
-    
+
     <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="scripts.js"></script>
-    
+
 </body>
 
 </html>
