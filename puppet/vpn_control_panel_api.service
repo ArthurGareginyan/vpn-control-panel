@@ -1,0 +1,13 @@
+[Unit]
+Description=VPN Control Panel via Flask API
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/gunicorn --bind 0.0.0.0:5000 vpn_control_panel_api:app
+WorkingDirectory=/home/pi/
+User=pi
+Group=www-data
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
