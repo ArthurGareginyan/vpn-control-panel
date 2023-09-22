@@ -6,6 +6,24 @@
 
 ## Why This Project Exists
 
+## Structure
+
+- `/server/`               : Folder containing files for the home server machine.
+  - `vpn_control_panel_api.py` : Python script for the API running on your home server.
+  - `vpn_control_panel_api.service` : Systemd service file for the API.
+  - `vpn_control_panel.sh` : Shell script for power control.
+
+- `/reverse_proxy/`        : Folder containing files related to Nginx reverse proxy.
+  - `nginx_config.txt`     : Nginx configuration file.
+  
+- `/www/`                  : Folder containing files for the web server machine.
+  - `index.html`           : Web page with buttons for power control.
+  - `scripts.js`           : JavaScript file for handling button clicks.
+  - `styles.css`           : Stylesheet for the web interface.
+  - `/assets/lib/`         : Folder containing third-party libraries.
+    - `fontawesome/`       : FontAwesome library files.
+    - `bootstrap/`         : Bootstrap library files.
+
 ## Installation
 
 1. **Clone the Repository**
