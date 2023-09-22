@@ -17,8 +17,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Common function to update status message with styling
     function updateStatusMessage(message, type) {
-        let prefix = type === 'status' ? '<span style="font-weight: 100;"> VPN ' + type + ':</span> ' : '<span style="font-weight: 100;">Error:</span> ';
-        document.getElementById("status").innerHTML = prefix + message;
+        let wrap_l = '<span class="' + type + '-label">';
+        let wrap_r = '</span>';
+        document.getElementById("status-message").innerHTML = type + ': ' + wrap_l + message + wrap_r;
     }
 
     // Toggle VPN

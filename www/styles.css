@@ -19,17 +19,33 @@ h1 {
     font-weight: 500;
 }
 
-button + p {
-    margin-top: 40px;
+.block button {
+    padding-right: 24px;
 }
 
-button i {
+.block button.status-enabled {
+    color: green;
+}
+
+.block button.status-disabled {
+    color: red;
+}
+
+.block button i {
     padding-right: 10px;
 }
 
-.status-enabled {
-    color: green;
+.block #status {
+    margin-top: 40px;
+    font-weight: 100;
 }
-.status-disabled {
+
+.block #status .status-label {
+    color: green;
+    font-weight: 400;
+}
+
+.block #status .error-label {
     color: red;
+    font-weight: 400;
 }
