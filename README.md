@@ -4,7 +4,11 @@
 
 ## Description
 
+The VPN Control Panel is a straightforward web interface that enables you to remotely enable or disable the WireGuard virtual network interface (`wg0`) on your home server. Developed with Ubuntu Server 22.04 in mind, this project utilizes a Python-based API, Nginx for reverse proxying, and a clean and minimalist HTML/JS interface for ease of use.
+
 ## Why This Project Exists
+
+Managing a home server with a WireGuard VPN requires SSHing into the machine to enable or disable the virtual network interface (`wg0`). This project aims to simplify these tasks by offering a straightforward web interface.
 
 ## Structure
 
