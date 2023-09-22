@@ -6,6 +6,26 @@
 
 ## Why This Project Exists
 
+## Installation
+
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/ArthurGareginyan/vpn-control-panel.git
+    ```
+
+2. **Run the API Service**
+    ```bash
+    sudo systemctl start vpn_control_panel_api.service
+    ```
+
+3. **Configure Nginx**
+
+    Include the provided nginx_config.txt in your Nginx configuration.
+
+4. **Access the Web Interface**
+
+    Open your web browser and navigate to the IP address where your web interface is hosted.
+
 ## Files
 
 ## Contributing
